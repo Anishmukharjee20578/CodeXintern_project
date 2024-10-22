@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-shirt Design Preview</title>
+    <link rel="stylesheet" href="style.css"> <!-- External CSS -->
+</head>
+<body>
+    <h1>Upload Your Design</h1>
+
+    <!-- Upload input -->
+    <input type="file" id="upload" accept="image/*">
+
+    <!-- T-shirt container with design overlay -->
+    <div id="tshirt-container">
+        <img id="design" alt="Your Design" src="">
+    </div>
+
+    <!-- Download button -->
+    <button id="downloadBtn">Download T-shirt Design</button>
+
+    <!-- External JS and HTML2Canvas Library -->
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script> <!-- External JS -->
+</body>
+</html>
